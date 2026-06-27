@@ -18,5 +18,6 @@ public class second_largest_element {
            System.out.println("Second largest element does not exist.");
            }
         System.out.println(slargest);
+        //if the first thing in the list is the last element of array      
     }
 }

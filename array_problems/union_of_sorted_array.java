@@ -2,7 +2,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.ArrayList;
 public class union_of_sorted_array {
-     static int unionArray(int[] nums1, int[] nums2) {
+     static int[] unionArray(int[] nums1, int[] nums2) {
       //optimal
      int x = 0 ; 
      int y = 0 ;

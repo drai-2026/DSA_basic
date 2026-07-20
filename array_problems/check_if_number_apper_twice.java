@@ -1,8 +1,7 @@
 public class check_if_number_apper_twice {
-        static void singleNumber(int[] nums) {
+        static int singleNumber(int[] nums) {
                //better than brute force 
-               /* 
-HashMap<Integer, Integer> map = new HashMap<>();
+ HashMap<Integer, Integer> map = new HashMap<>();
 for (int num : nums) {
     map.put(num, map.getOrDefault(num, 0) + 1);
 }
@@ -10,7 +9,6 @@ for (int num : map.keySet()) {
     if (map.get(num) == 1)
         return num;
 }
-*/
 
 
             //optimal solution

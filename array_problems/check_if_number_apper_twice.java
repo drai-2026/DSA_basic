@@ -1,3 +1,4 @@
+import java.util.HashMap;
 public class check_if_number_apper_twice {
         static int singleNumber(int[] nums) {
                //better than brute force 
